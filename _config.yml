@@ -96,11 +96,6 @@ gitment_repo: ''          #存储评论的 repo
 gitment_oauth:
   client_id: ''           #client ID
   client_secret: ''       #client secret
-#gitment_owner: 'XELengo'      #你的 GitHub ID
-#gitment_repo: 'XElengo.github.io'          #存储评论的 repo
-#gitment_oauth:
-#  client_id: 'adc0fc409d213ed2240c'           #client ID
-#  client_secret: '50d94e429bde14f181b7ef0e7ddb7a6eb948bded'       #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
