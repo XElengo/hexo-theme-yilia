@@ -39,9 +39,9 @@
 			line-height: 25px;
 			overflow: hidden;
 			text-overflow: ellipsis;
-			display: -webkit-box;
+			// display: -webkit-box;
 			-webkit-line-clamp: 2;
-			-webkit-box-orient: vertical;
+			// -webkit-box-orient: vertical;
 		}
 		.header-menu{
 			font-weight: 300;
@@ -76,6 +76,13 @@
 					}
 				}
 			}
+		}
+		.header-bottom {
+			position: absolute;
+			width: 100%;
+			line-height: 20px;
+			font-size: 14px;
+			top: calc(100vh - 150px);
 		}
 		.profilepic{
 			text-align: center;

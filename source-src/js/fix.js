@@ -29,7 +29,17 @@ function init() {
 	// about me 转义
 	var $aboutme = document.querySelector('#js-aboutme')
 	if ($aboutme && $aboutme.length !== 0) {
-		$aboutme.innerHTML = $aboutme.innerText
+		$aboutme.innerHTML = $aboutme.innerText;
+	}
+
+	// call me 转义
+	var $callme = document.querySelector('#js-callme');
+	if ($callme && $callme.length !== 0) {
+		$callme.innerHTML = $callme.innerText;
+	}
+	var $callme = document.querySelector('#js-callme-moble');
+	if ($callme && $callme.length !== 0) {
+		$callme.innerHTML = $callme.innerText;
 	}
 	
 }

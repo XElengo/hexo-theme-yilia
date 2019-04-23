@@ -318,7 +318,10 @@ html, body, #container {
 			position: relative;
 			z-index: 100;
 		}
-	}
+    }
+    .header-bottom {
+        text-align: center;
+    }
 }
 
 .header-menu{
